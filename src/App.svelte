@@ -62,6 +62,7 @@
 			{:else}
 				{#if errored}
 					<p class="error">The amount, number of people, and tip must all be valid numbers!</p>
+					<button class="btn" on:click={resetValues}>Reset</button>
 				{:else}
 					<p class="x-large">Everyone's share is: <span class="highlight">${total}</span></p>
 					<button class="btn" on:click={resetValues}>Reset</button>
