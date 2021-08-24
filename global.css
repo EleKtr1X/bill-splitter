@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+	padding: 10px 50px;
+	background-color: black;
+	border-radius: 5px;
+	border: 0px;
+	color: white;
+	font-size: 21px;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #2759DB;
+}
+
+.large {
+	font-size: 21px;
+}
+
+.x-large {
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.tip-text {
+	margin-bottom: 5px;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.highlight {
+	color: #2759DB;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+	font-size: 21px;
+	margin: -9px 0px;
+	box-sizing: border-box;
+}
+
+/* input, label {
+	display: block;
+} */
+
+.dollar, .percent {
+	position: relative;
+	color: black;
+}
+
+.dollar input {
+	padding-left: 18px;
+}
+
+.percent input {
+	padding-right: 25px;
+	text-align: end;
+}
+
+.dollar::before {
+	position: absolute;
+	top: -5px;
+	content: '$';
+	left: 5px;
+	font-size: 21px;
+}
+
+.percent::before {
+	position: absolute;
+	top: -4.5px;
+	content: '%';
+	right: 5px;
+	font-size: 21px;
+}
+
+.error {
+	color: red;
+}
