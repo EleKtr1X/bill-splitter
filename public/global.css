@@ -4,9 +4,30 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+	background: #fff;
+	font: 100% system-ui;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #eee;
+		background: #121212;
+	}
+
+	body a {
+		color: #809fff;
+	}
+}
+
+h1 {
+	color: #99aab5;
+}
+
 .btn {
 	padding: 10px 50px;
-	background-color: black;
+	background-color: red;
 	border-radius: 5px;
 	border: 0px;
 	color: white;
@@ -23,6 +44,7 @@
 }
 
 .x-large {
+	color: #99aab5;
 	font-size: 30px;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -64,9 +86,10 @@ input[type=number] {
 	display: block;
 } */
 
-.dollar, .percent {
+.dollar,
+.percent {
 	position: relative;
-	color: black;
+	color: #99aab5;
 }
 
 .dollar input {
