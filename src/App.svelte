@@ -71,14 +71,3 @@
 		{/if}
 	</div>
 </main>
-
-<!--
-
-Bill Amount: $364.45
-Number of People: 4
-Tip Percent: 18%
--------------------------------
-Total Amount: $430.05
-Everyone's share: $107.51
-
--->
