@@ -25,6 +25,7 @@
 		people = 1;
 		tip = 0;
 		total = 0;
+		tips = false;
 		if(!calcNotFinished) calcNotFinished = true;
 	}
 	const copyText = () => {
