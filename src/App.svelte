@@ -13,7 +13,6 @@
 
 	const invertTip = () => (tips = !tips);
 	const splitMoney = () => {
-		console.log(cost, people, tip, cost?.toString()?.split('.')[1]?.length)
 		if(cost === null || people === null || tip === null || cost?.toString()?.split('.')[1]?.length > 2 || !(Number.isInteger(people)) || people < 1 || tip > 100 || tip < 0 ) {
 			errored = true;
 		}
